@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10BB1BBB5283D0826F0B7B01 /* libPods-LoanGuru.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B29381A3BC2AE57DC2AB8A0 /* libPods-LoanGuru.a */; };
+		18390F6229ADEBA7009A289F /* LGLivingRecognitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18390F6129ADEBA7009A289F /* LGLivingRecognitionViewController.m */; };
 		18A57BD829A88E5700BD7909 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A57BD729A88E5700BD7909 /* AppDelegate.m */; };
-		18A57BDB29A88E5700BD7909 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A57BDA29A88E5700BD7909 /* SceneDelegate.m */; };
-		18A57BDE29A88E5700BD7909 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A57BDD29A88E5700BD7909 /* ViewController.m */; };
 		18A57BE129A88E5700BD7909 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A57BDF29A88E5700BD7909 /* Main.storyboard */; };
 		18A57BE329A88E5900BD7909 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A57BE229A88E5900BD7909 /* Assets.xcassets */; };
 		18A57BE629A88E5900BD7909 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A57BE429A88E5900BD7909 /* LaunchScreen.storyboard */; };
@@ -17,6 +17,24 @@
 		18A57BF329A88E5900BD7909 /* LoanGuruTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A57BF229A88E5900BD7909 /* LoanGuruTests.m */; };
 		18A57BFD29A88E5900BD7909 /* LoanGuruUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A57BFC29A88E5900BD7909 /* LoanGuruUITests.m */; };
 		18A57BFF29A88E5900BD7909 /* LoanGuruUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A57BFE29A88E5900BD7909 /* LoanGuruUITestsLaunchTests.m */; };
+		18A57C0F29A899CF00BD7909 /* LGNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A57C0E29A899CF00BD7909 /* LGNavigationController.m */; };
+		18A57C1329A89CDF00BD7909 /* LGLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A57C1229A89CDF00BD7909 /* LGLoginViewController.m */; };
+		18A57C1C29A8AF9F00BD7909 /* UIView+LGExpend.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A57C1B29A8AF9F00BD7909 /* UIView+LGExpend.m */; };
+		18A57C2229A8B71B00BD7909 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18A57C2429A8B71B00BD7909 /* Localizable.strings */; };
+		18A57C2829AB7F0900BD7909 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18A57C2A29AB7F0900BD7909 /* InfoPlist.strings */; };
+		18EDE25229AC347F00860731 /* LGTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EDE25129AC347F00860731 /* LGTabbar.m */; };
+		18EDE25529AC358200860731 /* LGTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EDE25429AC358200860731 /* LGTabbarController.m */; };
+		18EDE25B29AC380500860731 /* LGHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EDE25A29AC380500860731 /* LGHomePageViewController.m */; };
+		18EDE25E29AC381300860731 /* LGAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EDE25D29AC381300860731 /* LGAccountViewController.m */; };
+		18EDE26129AC382500860731 /* LGRepayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EDE26029AC382500860731 /* LGRepayViewController.m */; };
+		18EDE26829AC84B500860731 /* LGLoanProcessCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EDE26629AC84B500860731 /* LGLoanProcessCell.m */; };
+		18EDE26929AC84B500860731 /* LGLoanProcessCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18EDE26729AC84B500860731 /* LGLoanProcessCell.xib */; };
+		18EDE26C29AC933800860731 /* LGLoanApplyListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EDE26B29AC933800860731 /* LGLoanApplyListCell.m */; };
+		18EDE26F29AC9EB300860731 /* LGInfoAuthHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EDE26E29AC9EB300860731 /* LGInfoAuthHomePageViewController.m */; };
+		18EDE27229ACABB900860731 /* LGInfoAuthTypeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EDE27129ACABB900860731 /* LGInfoAuthTypeCell.m */; };
+		18EDE27529ACBDDF00860731 /* LGBasicInfoCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EDE27429ACBDDF00860731 /* LGBasicInfoCardViewController.m */; };
+		18EDE27829AD8B4300860731 /* LGAuthAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EDE27729AD8B4300860731 /* LGAuthAlertView.m */; };
+		18EDE27B29ADAA9100860731 /* LGConfirmCardInfoAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EDE27A29ADAA9100860731 /* LGConfirmCardInfoAlertView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,13 +55,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18390F6029ADEBA7009A289F /* LGLivingRecognitionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGLivingRecognitionViewController.h; sourceTree = "<group>"; };
+		18390F6129ADEBA7009A289F /* LGLivingRecognitionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGLivingRecognitionViewController.m; sourceTree = "<group>"; };
+		18390F6429AED658009A289F /* LoanGuru.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LoanGuru.entitlements; sourceTree = "<group>"; };
 		18A57BD329A88E5700BD7909 /* LoanGuru.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoanGuru.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A57BD629A88E5700BD7909 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18A57BD729A88E5700BD7909 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		18A57BD929A88E5700BD7909 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		18A57BDA29A88E5700BD7909 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		18A57BDC29A88E5700BD7909 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		18A57BDD29A88E5700BD7909 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		18A57BE029A88E5700BD7909 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18A57BE229A88E5900BD7909 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18A57BE529A88E5900BD7909 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +71,48 @@
 		18A57BF829A88E5900BD7909 /* LoanGuruUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoanGuruUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A57BFC29A88E5900BD7909 /* LoanGuruUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoanGuruUITests.m; sourceTree = "<group>"; };
 		18A57BFE29A88E5900BD7909 /* LoanGuruUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoanGuruUITestsLaunchTests.m; sourceTree = "<group>"; };
+		18A57C0D29A899CF00BD7909 /* LGNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGNavigationController.h; sourceTree = "<group>"; };
+		18A57C0E29A899CF00BD7909 /* LGNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGNavigationController.m; sourceTree = "<group>"; };
+		18A57C1029A89BE700BD7909 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		18A57C1129A89CDF00BD7909 /* LGLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGLoginViewController.h; sourceTree = "<group>"; };
+		18A57C1229A89CDF00BD7909 /* LGLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGLoginViewController.m; sourceTree = "<group>"; };
+		18A57C1829A89F1300BD7909 /* LGUIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGUIKit.h; sourceTree = "<group>"; };
+		18A57C1A29A8AF9F00BD7909 /* UIView+LGExpend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LGExpend.h"; sourceTree = "<group>"; };
+		18A57C1B29A8AF9F00BD7909 /* UIView+LGExpend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LGExpend.m"; sourceTree = "<group>"; };
+		18A57C2029A8B6BA00BD7909 /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/Main.strings; sourceTree = "<group>"; };
+		18A57C2129A8B6BA00BD7909 /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		18A57C2329A8B71B00BD7909 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		18A57C2529A8B71F00BD7909 /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/Localizable.strings; sourceTree = "<group>"; };
+		18A57C2929AB7F0900BD7909 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18A57C2B29AB7F1100BD7909 /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18EDE25029AC347F00860731 /* LGTabbar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGTabbar.h; sourceTree = "<group>"; };
+		18EDE25129AC347F00860731 /* LGTabbar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGTabbar.m; sourceTree = "<group>"; };
+		18EDE25329AC358200860731 /* LGTabbarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGTabbarController.h; sourceTree = "<group>"; };
+		18EDE25429AC358200860731 /* LGTabbarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGTabbarController.m; sourceTree = "<group>"; };
+		18EDE25929AC380500860731 /* LGHomePageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGHomePageViewController.h; sourceTree = "<group>"; };
+		18EDE25A29AC380500860731 /* LGHomePageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGHomePageViewController.m; sourceTree = "<group>"; };
+		18EDE25C29AC381300860731 /* LGAccountViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGAccountViewController.h; sourceTree = "<group>"; };
+		18EDE25D29AC381300860731 /* LGAccountViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGAccountViewController.m; sourceTree = "<group>"; };
+		18EDE25F29AC382500860731 /* LGRepayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGRepayViewController.h; sourceTree = "<group>"; };
+		18EDE26029AC382500860731 /* LGRepayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGRepayViewController.m; sourceTree = "<group>"; };
+		18EDE26529AC84B500860731 /* LGLoanProcessCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGLoanProcessCell.h; sourceTree = "<group>"; };
+		18EDE26629AC84B500860731 /* LGLoanProcessCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGLoanProcessCell.m; sourceTree = "<group>"; };
+		18EDE26729AC84B500860731 /* LGLoanProcessCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LGLoanProcessCell.xib; sourceTree = "<group>"; };
+		18EDE26A29AC933800860731 /* LGLoanApplyListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGLoanApplyListCell.h; sourceTree = "<group>"; };
+		18EDE26B29AC933800860731 /* LGLoanApplyListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGLoanApplyListCell.m; sourceTree = "<group>"; };
+		18EDE26D29AC9EB300860731 /* LGInfoAuthHomePageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGInfoAuthHomePageViewController.h; sourceTree = "<group>"; };
+		18EDE26E29AC9EB300860731 /* LGInfoAuthHomePageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGInfoAuthHomePageViewController.m; sourceTree = "<group>"; };
+		18EDE27029ACABB900860731 /* LGInfoAuthTypeCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGInfoAuthTypeCell.h; sourceTree = "<group>"; };
+		18EDE27129ACABB900860731 /* LGInfoAuthTypeCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGInfoAuthTypeCell.m; sourceTree = "<group>"; };
+		18EDE27329ACBDDF00860731 /* LGBasicInfoCardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGBasicInfoCardViewController.h; sourceTree = "<group>"; };
+		18EDE27429ACBDDF00860731 /* LGBasicInfoCardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGBasicInfoCardViewController.m; sourceTree = "<group>"; };
+		18EDE27629AD8B4300860731 /* LGAuthAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGAuthAlertView.h; sourceTree = "<group>"; };
+		18EDE27729AD8B4300860731 /* LGAuthAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGAuthAlertView.m; sourceTree = "<group>"; };
+		18EDE27929ADAA9100860731 /* LGConfirmCardInfoAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGConfirmCardInfoAlertView.h; sourceTree = "<group>"; };
+		18EDE27A29ADAA9100860731 /* LGConfirmCardInfoAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGConfirmCardInfoAlertView.m; sourceTree = "<group>"; };
+		7B29381A3BC2AE57DC2AB8A0 /* libPods-LoanGuru.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LoanGuru.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE848686FAE7688A70958055 /* Pods-LoanGuru.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoanGuru.debug.xcconfig"; path = "Target Support Files/Pods-LoanGuru/Pods-LoanGuru.debug.xcconfig"; sourceTree = "<group>"; };
+		F12C2D0CBFD099E9ECE3F1A9 /* Pods-LoanGuru.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoanGuru.release.xcconfig"; path = "Target Support Files/Pods-LoanGuru/Pods-LoanGuru.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10BB1BBB5283D0826F0B7B01 /* libPods-LoanGuru.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +148,8 @@
 				18A57BF129A88E5900BD7909 /* LoanGuruTests */,
 				18A57BFB29A88E5900BD7909 /* LoanGuruUITests */,
 				18A57BD429A88E5700BD7909 /* Products */,
+				DC7AA9981A9F9DBA551E9761 /* Pods */,
+				FCE359E4AA68A2FBD30D77BD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,17 +166,25 @@
 		18A57BD529A88E5700BD7909 /* LoanGuru */ = {
 			isa = PBXGroup;
 			children = (
+				18390F6429AED658009A289F /* LoanGuru.entitlements */,
 				18A57BD629A88E5700BD7909 /* AppDelegate.h */,
 				18A57BD729A88E5700BD7909 /* AppDelegate.m */,
-				18A57BD929A88E5700BD7909 /* SceneDelegate.h */,
-				18A57BDA29A88E5700BD7909 /* SceneDelegate.m */,
-				18A57BDC29A88E5700BD7909 /* ViewController.h */,
-				18A57BDD29A88E5700BD7909 /* ViewController.m */,
+				18EDE25829AC37DF00860731 /* Account */,
+				18EDE25729AC37DF00860731 /* HomePage */,
+				18EDE25629AC37DF00860731 /* Repay */,
+				18EDE24F29AC345B00860731 /* Tabbar */,
+				18A57C1929A8AF8C00BD7909 /* Categories */,
+				18A57C1429A89EA900BD7909 /* UIKit */,
+				18A57C0C29A8968B00BD7909 /* Nav */,
+				18A57C0B29A8967300BD7909 /* Login */,
 				18A57BDF29A88E5700BD7909 /* Main.storyboard */,
 				18A57BE229A88E5900BD7909 /* Assets.xcassets */,
 				18A57BE429A88E5900BD7909 /* LaunchScreen.storyboard */,
+				18A57C1029A89BE700BD7909 /* PrefixHeader.pch */,
 				18A57BE729A88E5900BD7909 /* Info.plist */,
 				18A57BE829A88E5900BD7909 /* main.m */,
+				18A57C1D29A8B63000BD7909 /* Localizable */,
+				18A57C2A29AB7F0900BD7909 /* InfoPlist.strings */,
 			);
 			path = LoanGuru;
 			sourceTree = "<group>";
@@ -136,6 +206,145 @@
 			path = LoanGuruUITests;
 			sourceTree = "<group>";
 		};
+		18A57C0B29A8967300BD7909 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				18A57C1129A89CDF00BD7909 /* LGLoginViewController.h */,
+				18A57C1229A89CDF00BD7909 /* LGLoginViewController.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		18A57C0C29A8968B00BD7909 /* Nav */ = {
+			isa = PBXGroup;
+			children = (
+				18A57C0D29A899CF00BD7909 /* LGNavigationController.h */,
+				18A57C0E29A899CF00BD7909 /* LGNavigationController.m */,
+			);
+			path = Nav;
+			sourceTree = "<group>";
+		};
+		18A57C1429A89EA900BD7909 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				18A57C1829A89F1300BD7909 /* LGUIKit.h */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		18A57C1929A8AF8C00BD7909 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				18A57C1A29A8AF9F00BD7909 /* UIView+LGExpend.h */,
+				18A57C1B29A8AF9F00BD7909 /* UIView+LGExpend.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		18A57C1D29A8B63000BD7909 /* Localizable */ = {
+			isa = PBXGroup;
+			children = (
+				18A57C2429A8B71B00BD7909 /* Localizable.strings */,
+			);
+			path = Localizable;
+			sourceTree = "<group>";
+		};
+		18EDE24F29AC345B00860731 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				18EDE25029AC347F00860731 /* LGTabbar.h */,
+				18EDE25129AC347F00860731 /* LGTabbar.m */,
+				18EDE25329AC358200860731 /* LGTabbarController.h */,
+				18EDE25429AC358200860731 /* LGTabbarController.m */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		18EDE25629AC37DF00860731 /* Repay */ = {
+			isa = PBXGroup;
+			children = (
+				18EDE25F29AC382500860731 /* LGRepayViewController.h */,
+				18EDE26029AC382500860731 /* LGRepayViewController.m */,
+			);
+			path = Repay;
+			sourceTree = "<group>";
+		};
+		18EDE25729AC37DF00860731 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				18EDE26329AC848300860731 /* Model */,
+				18EDE26429AC848300860731 /* VC */,
+				18EDE26229AC848300860731 /* View */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		18EDE25829AC37DF00860731 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				18EDE25C29AC381300860731 /* LGAccountViewController.h */,
+				18EDE25D29AC381300860731 /* LGAccountViewController.m */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		18EDE26229AC848300860731 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18EDE26529AC84B500860731 /* LGLoanProcessCell.h */,
+				18EDE26629AC84B500860731 /* LGLoanProcessCell.m */,
+				18EDE26729AC84B500860731 /* LGLoanProcessCell.xib */,
+				18EDE26A29AC933800860731 /* LGLoanApplyListCell.h */,
+				18EDE26B29AC933800860731 /* LGLoanApplyListCell.m */,
+				18EDE27029ACABB900860731 /* LGInfoAuthTypeCell.h */,
+				18EDE27129ACABB900860731 /* LGInfoAuthTypeCell.m */,
+				18EDE27629AD8B4300860731 /* LGAuthAlertView.h */,
+				18EDE27729AD8B4300860731 /* LGAuthAlertView.m */,
+				18EDE27929ADAA9100860731 /* LGConfirmCardInfoAlertView.h */,
+				18EDE27A29ADAA9100860731 /* LGConfirmCardInfoAlertView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18EDE26329AC848300860731 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18EDE26429AC848300860731 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				18EDE25929AC380500860731 /* LGHomePageViewController.h */,
+				18EDE25A29AC380500860731 /* LGHomePageViewController.m */,
+				18EDE26D29AC9EB300860731 /* LGInfoAuthHomePageViewController.h */,
+				18EDE26E29AC9EB300860731 /* LGInfoAuthHomePageViewController.m */,
+				18EDE27329ACBDDF00860731 /* LGBasicInfoCardViewController.h */,
+				18EDE27429ACBDDF00860731 /* LGBasicInfoCardViewController.m */,
+				18390F6029ADEBA7009A289F /* LGLivingRecognitionViewController.h */,
+				18390F6129ADEBA7009A289F /* LGLivingRecognitionViewController.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		DC7AA9981A9F9DBA551E9761 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE848686FAE7688A70958055 /* Pods-LoanGuru.debug.xcconfig */,
+				F12C2D0CBFD099E9ECE3F1A9 /* Pods-LoanGuru.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FCE359E4AA68A2FBD30D77BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B29381A3BC2AE57DC2AB8A0 /* libPods-LoanGuru.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,9 +352,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18A57C0229A88E5900BD7909 /* Build configuration list for PBXNativeTarget "LoanGuru" */;
 			buildPhases = (
+				73F3DFA6B32A313AA41BC718 /* [CP] Check Pods Manifest.lock */,
 				18A57BCF29A88E5700BD7909 /* Sources */,
 				18A57BD029A88E5700BD7909 /* Frameworks */,
 				18A57BD129A88E5700BD7909 /* Resources */,
+				D68981B7C85E9E921852DF8A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -221,6 +432,7 @@
 			knownRegions = (
 				en,
 				Base,
+				id,
 			);
 			mainGroup = 18A57BCA29A88E5700BD7909;
 			productRefGroup = 18A57BD429A88E5700BD7909 /* Products */;
@@ -240,8 +452,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				18A57BE629A88E5900BD7909 /* LaunchScreen.storyboard in Resources */,
+				18A57C2229A8B71B00BD7909 /* Localizable.strings in Resources */,
+				18EDE26929AC84B500860731 /* LGLoanProcessCell.xib in Resources */,
 				18A57BE329A88E5900BD7909 /* Assets.xcassets in Resources */,
 				18A57BE129A88E5700BD7909 /* Main.storyboard in Resources */,
+				18A57C2829AB7F0900BD7909 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,15 +476,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		73F3DFA6B32A313AA41BC718 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LoanGuru-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D68981B7C85E9E921852DF8A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoanGuru/Pods-LoanGuru-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoanGuru/Pods-LoanGuru-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LoanGuru/Pods-LoanGuru-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		18A57BCF29A88E5700BD7909 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18A57BDE29A88E5700BD7909 /* ViewController.m in Sources */,
+				18A57C1329A89CDF00BD7909 /* LGLoginViewController.m in Sources */,
+				18A57C1C29A8AF9F00BD7909 /* UIView+LGExpend.m in Sources */,
 				18A57BD829A88E5700BD7909 /* AppDelegate.m in Sources */,
+				18EDE26C29AC933800860731 /* LGLoanApplyListCell.m in Sources */,
+				18EDE27829AD8B4300860731 /* LGAuthAlertView.m in Sources */,
+				18A57C0F29A899CF00BD7909 /* LGNavigationController.m in Sources */,
+				18EDE26F29AC9EB300860731 /* LGInfoAuthHomePageViewController.m in Sources */,
+				18EDE27229ACABB900860731 /* LGInfoAuthTypeCell.m in Sources */,
+				18EDE27529ACBDDF00860731 /* LGBasicInfoCardViewController.m in Sources */,
+				18EDE26829AC84B500860731 /* LGLoanProcessCell.m in Sources */,
+				18EDE25529AC358200860731 /* LGTabbarController.m in Sources */,
+				18EDE26129AC382500860731 /* LGRepayViewController.m in Sources */,
+				18EDE25E29AC381300860731 /* LGAccountViewController.m in Sources */,
+				18EDE25B29AC380500860731 /* LGHomePageViewController.m in Sources */,
+				18390F6229ADEBA7009A289F /* LGLivingRecognitionViewController.m in Sources */,
+				18EDE27B29ADAA9100860731 /* LGConfirmCardInfoAlertView.m in Sources */,
+				18EDE25229AC347F00860731 /* LGTabbar.m in Sources */,
 				18A57BE929A88E5900BD7909 /* main.m in Sources */,
-				18A57BDB29A88E5700BD7909 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +581,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				18A57BE029A88E5700BD7909 /* Base */,
+				18A57C2029A8B6BA00BD7909 /* id */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -318,8 +590,27 @@
 			isa = PBXVariantGroup;
 			children = (
 				18A57BE529A88E5900BD7909 /* Base */,
+				18A57C2129A8B6BA00BD7909 /* id */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		18A57C2429A8B71B00BD7909 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18A57C2329A8B71B00BD7909 /* en */,
+				18A57C2529A8B71F00BD7909 /* id */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		18A57C2A29AB7F0900BD7909 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18A57C2929AB7F0900BD7909 /* en */,
+				18A57C2B29AB7F1100BD7909 /* id */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -329,6 +620,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -387,6 +679,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -437,55 +730,81 @@
 		};
 		18A57C0329A88E5900BD7909 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE848686FAE7688A70958055 /* Pods-LoanGuru.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LoanGuru/LoanGuru.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Y92476QC5T;
+				DEVELOPMENT_TEAM = JEBDQNTERX;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LoanGuru/PrefixHeader.pch";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LoanGuru/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LoanGuru;
+				INFOPLIST_KEY_NSCameraUsageDescription = "相机权限描述";
+				INFOPLIST_KEY_NSContactsUsageDescription = "通讯录权限描述";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "定位权限描述";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "定位权限描述";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "idfa权限描述";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ibike668.CityPublicBike.LoanGuru;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibike668.CityPublicBike;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		18A57C0429A88E5900BD7909 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F12C2D0CBFD099E9ECE3F1A9 /* Pods-LoanGuru.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LoanGuru/LoanGuru.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Y92476QC5T;
+				DEVELOPMENT_TEAM = JEBDQNTERX;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LoanGuru/PrefixHeader.pch";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LoanGuru/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LoanGuru;
+				INFOPLIST_KEY_NSCameraUsageDescription = "相机权限描述";
+				INFOPLIST_KEY_NSContactsUsageDescription = "通讯录权限描述";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "定位权限描述";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "定位权限描述";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "idfa权限描述";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ibike668.CityPublicBike.LoanGuru;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibike668.CityPublicBike;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

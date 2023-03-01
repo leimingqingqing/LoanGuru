@@ -6,35 +6,52 @@
 //
 
 #import "AppDelegate.h"
-
+#import "LGLoginViewController.h"
+#import "LGNavigationController.h"
+#import "LGTabbarController.h"
+#import "LGHomePageViewController.h"
+#import "LGRepayViewController.h"
+#import "LGAccountViewController.h"
 @interface AppDelegate ()
-
+@property (nonatomic, strong)LGTabbarController *tabBarViewController;
 @end
 
 @implementation AppDelegate
-
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.isAutoRotation = NO;
+
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = [UIViewController new];
+    [self.window makeKeyAndVisible];
+    
+    [self goToLoginPage];
     return YES;
 }
 
-
-#pragma mark - UISceneSession lifecycle
-
-
-- (UISceneConfiguration *)application:(UIApplication *)application configurationForConnectingSceneSession:(UISceneSession *)connectingSceneSession options:(UISceneConnectionOptions *)options {
-    // Called when a new scene session is being created.
-    // Use this method to select a configuration to create the new scene with.
-    return [[UISceneConfiguration alloc] initWithName:@"Default Configuration" sessionRole:connectingSceneSession.role];
+-(void)goToLoginPage{
+    LGNavigationController *nav = [[LGNavigationController alloc] initWithRootViewController:[LGLoginViewController new]];
+    self.window.rootViewController = nav;
 }
 
-
-- (void)application:(UIApplication *)application didDiscardSceneSessions:(NSSet<UISceneSession *> *)sceneSessions {
-    // Called when the user discards a scene session.
-    // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
-    // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
+-(void)goToHomePage{
+    LGTabbarController *tabBarViewController = [[LGTabbarController alloc] init];
+    
+    LGHomePageViewController *homePageVC = [[LGHomePageViewController alloc] init];
+    
+    [tabBarViewController addChildViewController:homePageVC title:@"LOAN" imageName:@"loan_normal" selectedImageName:@"loan_selected"];
+    
+    LGRepayViewController *repayVC = [[LGRepayViewController alloc] init];
+    [tabBarViewController addChildViewController:repayVC title:@"REPAY" imageName:@"repay_normal" selectedImageName:@"repay_selected"];
+    
+    LGAccountViewController *accountVC = [[LGAccountViewController alloc] init];
+    [tabBarViewController addChildViewController:accountVC title:@"ACCOUNT" imageName:@"account_normal" selectedImageName:@"account_selected"];
+    
+    self.window.rootViewController = tabBarViewController;
+    self.tabBarViewController = tabBarViewController;
 }
 
-
+- (UIInterfaceOrientationMask)application:(UIApplication *)application supportedInterfaceOrientationsForWindow:(UIWindow *)window {
+    return UIInterfaceOrientationMaskAllButUpsideDown;
+}
 @end
