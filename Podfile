@@ -26,6 +26,12 @@ pod 'ReactiveObjC'
 
 pod 'BlocksKit'
 
+pod 'JLRoutes'
+
 pod 'AppsFlyerFramework', '~> 6.8.0'
+
+pod 'AFNetworking'
+
+pod 'SDCycleScrollView'
 end
 

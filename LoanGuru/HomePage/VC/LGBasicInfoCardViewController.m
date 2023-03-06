@@ -8,6 +8,7 @@
 #import "LGBasicInfoCardViewController.h"
 #import "LGAuthAlertView.h"
 #import "LGConfirmCardInfoAlertView.h"
+#import "LGCommonAlertView.h"
 @interface LGBasicInfoCardViewController ()
 @property (nonatomic, strong)UIScrollView *scrollview;
 @property (nonatomic, strong)UIButton *backBtn;
@@ -21,6 +22,9 @@
 @property (nonatomic, strong)UIImageView *aadhaarBackImageView;
 @property (nonatomic, strong)UIView *pandCardPhotoView;
 @property (nonatomic, strong)UIImageView *pandCardPhotoImageView;
+@property (nonatomic, strong)UIImageView *frontCorrectIcon;
+@property (nonatomic, strong)UIImageView *backCorrectIcon;
+@property (nonatomic, strong)UIImageView *panCorrectIcon;
 @end
 
 @implementation LGBasicInfoCardViewController
@@ -159,6 +163,14 @@
         make.top.mas_equalTo(frontPhotoIcon.mas_bottom).mas_offset(5);
     }];
     
+    self.frontCorrectIcon = [[UIImageView alloc] init];
+    self.frontCorrectIcon.hidden = YES;
+    self.frontCorrectIcon.image = [UIImage imageNamed:@"home_auth_alertCorrectIcon"];
+    [self.aadhaarFrontView addSubview:self.frontCorrectIcon];
+    [self.frontCorrectIcon mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.bottom.right.mas_offset(-5);
+    }];
+    
     self.aadhaarBackView = [[UIView alloc] init];
     self.aadhaarBackView.userInteractionEnabled = YES;
     self.aadhaarBackView.backgroundColor = [UIColor clearColor];
@@ -196,6 +208,14 @@
     [backPhotoTitleLabel mas_makeConstraints:^(MASConstraintMaker *make) {
         make.centerX.mas_equalTo(backPhotoIcon);
         make.top.mas_equalTo(backPhotoIcon.mas_bottom).mas_offset(5);
+    }];
+    
+    self.backCorrectIcon = [[UIImageView alloc] init];
+    self.backCorrectIcon.hidden = YES;
+    self.backCorrectIcon.image = [UIImage imageNamed:@"home_auth_alertCorrectIcon"];
+    [self.aadhaarBackView addSubview:self.backCorrectIcon];
+    [self.backCorrectIcon mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.bottom.right.mas_offset(-5);
     }];
     
     UILabel *aadhaarBottomTipLabel = [[UILabel alloc] init];
@@ -262,6 +282,14 @@
         make.top.mas_equalTo(panCardPhotoIcon.mas_bottom).mas_offset(5);
     }];
     
+    self.panCorrectIcon = [[UIImageView alloc] init];
+    self.panCorrectIcon.hidden = YES;
+    self.panCorrectIcon.image = [UIImage imageNamed:@"home_auth_alertCorrectIcon"];
+    [self.pandCardPhotoView addSubview:self.panCorrectIcon];
+    [self.panCorrectIcon mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.bottom.right.mas_offset(-5);
+    }];
+    
     UILabel *panCardRightTipLabel = [[UILabel alloc] init];
     panCardRightTipLabel.text = @"Please upload the front photo of Pan.";
     panCardRightTipLabel.textColor = [UIColor jk_colorWithHexString:@"444444"];
@@ -280,7 +308,8 @@
 }
 
 -(void)applyAction:(UIButton *)sender{
-    
+    LGCommonAlertView *alertView = [[LGCommonAlertView alloc] initWithFrame:self.view.bounds iconImageName:@"home_auth_uploadConfirmIcon" tipStr:@"Upload succeeded"];
+    [self.view addSubview:alertView];
 }
 
 -(void)addFrontPhotoAction:(UIGestureRecognizer *)ges{

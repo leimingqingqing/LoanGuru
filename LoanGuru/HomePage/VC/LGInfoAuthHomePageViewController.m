@@ -9,6 +9,8 @@
 #import "LGInfoAuthTypeCell.h"
 #import "LGBasicInfoCardViewController.h"
 #import "LGLivingRecognitionViewController.h"
+#import "LGContactInfomationViewController.h"
+#import "LGBasicInfomationViewController.h"
 static NSString *identifier = @"LGInfoAuthTypeCell";
 @interface LGInfoAuthHomePageViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic, strong)UIImageView *topBgImageView;
@@ -61,7 +63,7 @@ static NSString *identifier = @"LGInfoAuthTypeCell";
     [self.tableview mas_makeConstraints:^(MASConstraintMaker *make) {
         make.left.right.mas_offset(0);
         make.top.mas_equalTo(self.tableViewHeaderView.mas_bottom).mas_offset(28);
-        make.bottom.mas_offset(20);
+        make.bottom.mas_offset(-90);
     }];
 }
 
@@ -176,14 +178,21 @@ static NSString *identifier = @"LGInfoAuthTypeCell";
             [self.navigationController pushViewController:vc animated:YES];
            }
             break;
-        case 2:
+        case 2:{
+            LGBasicInfomationViewController *vc = [[LGBasicInfomationViewController alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
             
             break;
-        case 3:
-            
+        case 3:{
+            LGContactInfomationViewController *vc = [[LGContactInfomationViewController alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
             break;
-        case 4:
-            
+        case 4:{
+            LGBasicInfomationViewController *vc = [[LGBasicInfomationViewController alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
             break;
         default:
             break;

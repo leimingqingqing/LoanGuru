@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="175" id="KGk-i7-Jjw" customClass="LGRepayCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="175"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="175"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="repayIcon01" translatesAutoresizingMaskIntoConstraints="NO" id="5iG-3T-epw">
+                        <rect key="frame" x="13" y="12" width="38" height="38"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Groww Fund" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Xf-Uk-vjI">
+                        <rect key="frame" x="61.000000000000007" y="21" width="94.666666666666686" height="20"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gg2-lp-4hn">
+                        <rect key="frame" x="15" y="62" width="290" height="1"/>
+                        <color key="backgroundColor" red="0.90196078431372551" green="0.94509803921568625" blue="0.94509803921568625" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="L5l-Pl-2H4"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loan Amount" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zr6-j4-VKT">
+                        <rect key="frame" x="13" y="72" width="86" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.26666666666666666" green="0.26666666666666666" blue="0.26666666666666666" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="₹10000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pxI-CF-UuH">
+                        <rect key="frame" x="256" y="72" width="50" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.2666666667" green="0.2666666667" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loan Term" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3nD-aD-htL">
+                        <rect key="frame" x="13" y="95" width="67.666666666666671" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.2666666667" green="0.2666666667" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="91 days" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cqO-65-yDI">
+                        <rect key="frame" x="256" y="95" width="50" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.2666666667" green="0.2666666667" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loan Dater" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZdL-vp-wJg">
+                        <rect key="frame" x="13" y="118" width="70.666666666666671" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.2666666667" green="0.2666666667" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="23/01/2023" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ydp-0m-Euy">
+                        <rect key="frame" x="231.66666666666666" y="118" width="74.333333333333343" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.2666666667" green="0.2666666667" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Repayment Dater" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sKa-PO-puc">
+                        <rect key="frame" x="13" y="141" width="112" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.2666666667" green="0.2666666667" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="23/01/2023" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZZe-Ye-SFO">
+                        <rect key="frame" x="231.66666666666666" y="141" width="74.333333333333343" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.2666666667" green="0.2666666667" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="7Xf-Uk-vjI" firstAttribute="centerY" secondItem="5iG-3T-epw" secondAttribute="centerY" id="07D-zz-Mza"/>
+                    <constraint firstItem="ZZe-Ye-SFO" firstAttribute="trailing" secondItem="Ydp-0m-Euy" secondAttribute="trailing" id="2h1-9w-ols"/>
+                    <constraint firstItem="ZdL-vp-wJg" firstAttribute="top" secondItem="3nD-aD-htL" secondAttribute="bottom" constant="6" id="3N8-3f-XIu"/>
+                    <constraint firstItem="zr6-j4-VKT" firstAttribute="top" secondItem="gg2-lp-4hn" secondAttribute="bottom" constant="9" id="4QL-GC-Wy0"/>
+                    <constraint firstItem="ZdL-vp-wJg" firstAttribute="leading" secondItem="3nD-aD-htL" secondAttribute="leading" id="8Vd-fd-5Et"/>
+                    <constraint firstItem="7Xf-Uk-vjI" firstAttribute="leading" secondItem="5iG-3T-epw" secondAttribute="trailing" constant="10" id="9WV-oT-2jo"/>
+                    <constraint firstAttribute="trailing" secondItem="pxI-CF-UuH" secondAttribute="trailing" constant="14" id="AJx-Ya-6Yu"/>
+                    <constraint firstAttribute="trailing" secondItem="gg2-lp-4hn" secondAttribute="trailing" constant="15" id="Euf-S3-Rha"/>
+                    <constraint firstItem="gg2-lp-4hn" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="H5e-rT-yWA"/>
+                    <constraint firstItem="gg2-lp-4hn" firstAttribute="top" secondItem="5iG-3T-epw" secondAttribute="bottom" constant="12" id="KjR-lh-m4w"/>
+                    <constraint firstItem="5iG-3T-epw" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="13" id="RJc-1e-ytf"/>
+                    <constraint firstItem="5iG-3T-epw" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="12" id="SjJ-uU-6UK"/>
+                    <constraint firstItem="pxI-CF-UuH" firstAttribute="centerY" secondItem="zr6-j4-VKT" secondAttribute="centerY" id="VBU-Ma-iFS"/>
+                    <constraint firstItem="ZZe-Ye-SFO" firstAttribute="centerY" secondItem="sKa-PO-puc" secondAttribute="centerY" id="ZEw-Za-APM"/>
+                    <constraint firstItem="Ydp-0m-Euy" firstAttribute="centerY" secondItem="ZdL-vp-wJg" secondAttribute="centerY" id="aJP-iI-9Hv"/>
+                    <constraint firstItem="3nD-aD-htL" firstAttribute="top" secondItem="zr6-j4-VKT" secondAttribute="bottom" constant="6" id="aLh-nK-1EW"/>
+                    <constraint firstAttribute="bottom" secondItem="sKa-PO-puc" secondAttribute="bottom" priority="250" constant="10" id="fSA-9Q-NDs"/>
+                    <constraint firstItem="3nD-aD-htL" firstAttribute="leading" secondItem="zr6-j4-VKT" secondAttribute="leading" id="hWf-bd-6Pu"/>
+                    <constraint firstItem="cqO-65-yDI" firstAttribute="trailing" secondItem="pxI-CF-UuH" secondAttribute="trailing" id="n5Y-s2-NUo"/>
+                    <constraint firstItem="zr6-j4-VKT" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="13" id="nze-0t-kaB"/>
+                    <constraint firstItem="sKa-PO-puc" firstAttribute="leading" secondItem="ZdL-vp-wJg" secondAttribute="leading" id="qER-8z-Sue"/>
+                    <constraint firstItem="cqO-65-yDI" firstAttribute="centerY" secondItem="3nD-aD-htL" secondAttribute="centerY" id="tVu-ua-0Pj"/>
+                    <constraint firstItem="sKa-PO-puc" firstAttribute="top" secondItem="ZdL-vp-wJg" secondAttribute="bottom" constant="6" id="wrO-4N-ofi"/>
+                    <constraint firstItem="Ydp-0m-Euy" firstAttribute="trailing" secondItem="cqO-65-yDI" secondAttribute="trailing" id="zI3-s2-WIe"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <point key="canvasLocation" x="114.50381679389312" y="27.816901408450704"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="repayIcon01" width="38" height="38"/>
+    </resources>
+</document>

@@ -170,11 +170,14 @@ PODS:
   - JKCategories/UIKit/UIView (1.9.3)
   - JKCategories/UIKit/UIViewController (1.9.3)
   - JKCategories/UIKit/UIWindow (1.9.3)
+  - JLRoutes (2.1)
   - Masonry (1.1.0)
   - MBProgressHUD (1.2.0)
   - MJExtension (3.2.4)
   - MJRefresh (3.5.0)
   - ReactiveObjC (3.1.1)
+  - SDCycleScrollView (1.82):
+    - SDWebImage (>= 5.0.0)
   - SDWebImage (5.9.5):
     - SDWebImage/Core (= 5.9.5)
   - SDWebImage/Core (5.9.5)
@@ -187,11 +190,13 @@ DEPENDENCIES:
   - AppsFlyerFramework (~> 6.8.0)
   - BlocksKit
   - JKCategories
+  - JLRoutes
   - Masonry
   - MBProgressHUD
   - MJExtension
   - MJRefresh
   - ReactiveObjC
+  - SDCycleScrollView
   - SDWebImage
   - SVProgressHUD
   - Toast
@@ -203,11 +208,13 @@ SPEC REPOS:
     - AppsFlyerFramework
     - BlocksKit
     - JKCategories
+    - JLRoutes
     - Masonry
     - MBProgressHUD
     - MJExtension
     - MJRefresh
     - ReactiveObjC
+    - SDCycleScrollView
     - SDWebImage
     - SVProgressHUD
     - Toast
@@ -218,16 +225,18 @@ SPEC CHECKSUMS:
   AppsFlyerFramework: a664325124485223296354b4eec335f5340a6df8
   BlocksKit: 8639b2848dd51c35c957af4d9fbdc7a769a1fc12
   JKCategories: c995567f04ff98680313f56544e6cb62d3152733
+  JLRoutes: d755245322b94227662ea3e43492fdca94e05c5b
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   MJExtension: 88e0900751b6cac8de1cf724ca9838a0b28d5acb
   MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
   ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
+  SDCycleScrollView: a0d74c3384caa72bdfc81470bdbc8c14b3e1fbcf
   SDWebImage: 0b2ba0d56479bf6a45ecddbfd5558bea93150d25
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
   TPKeyboardAvoiding: 7c2187e2338052b2c5be4a8052f297fdb124e261
 
-PODFILE CHECKSUM: 610e44ee89834c12f545990ae18d054db3c740da
+PODFILE CHECKSUM: f8b26329b5c7078e3160b88ea77544e1d6dc4b56
 
 COCOAPODS: 1.11.3

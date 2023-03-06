@@ -9,26 +9,26 @@
 #import "LGLoanProcessCell.h"
 #import "LGLoanApplyListCell.h"
 #import "LGInfoAuthHomePageViewController.h"
+#import "LGHomeViewModel.h"
+#import <SDCycleScrollView/SDCycleScrollView.h>
 typedef enum : NSUInteger {
      LGBeforeApply,
      LGAfterApply,
 } LGTableViewStyle;
 static NSString *identifier = @"LGLoanProcessCell";
 static NSString *identifier01 = @"LGLoanApplyListCell";
-@interface LGHomePageViewController ()<UITableViewDelegate,UITableViewDataSource>
+@interface LGHomePageViewController ()<UITableViewDelegate,UITableViewDataSource,SDCycleScrollViewDelegate>
 {
     LGTableViewStyle _tableviewStyle;
 }
 @property(nonatomic, strong)UITableView *tableview;
 @property(nonatomic, strong)UIView *tableViewHeaderView;
-@property(nonatomic, strong)UIImageView *topIntroducePic;
 @property(nonatomic, strong)UIImageView *loanIntroduceBgImageView;
 @property(nonatomic, strong)UIButton *applyBtn;
 @property(nonatomic, strong)UILabel *loanAmountLabel;
 @property(nonatomic, strong)UILabel *loanRateLabel;
-
-
 @property(nonatomic, strong)UILabel *notificationLabel;
+@property (nonatomic, strong) SDCycleScrollView *cycleScrollView;
 @end
 
 @implementation LGHomePageViewController
@@ -52,23 +52,33 @@ static NSString *identifier01 = @"LGLoanApplyListCell";
     }];
 }
 
+-(void)getHomeInfo{
+    [LGHomeViewModel getHomeInfoSuccess:^(LGApiModel * _Nullable dataModel) {
+        
+    } fail:^(LGApiModel * _Nullable dataModel, NSInteger errorCode) {
+        
+    }];
+}
+
 -(void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:YES];
     [self.navigationController setNavigationBarHidden:YES animated:YES];
+    
+    [self getHomeInfo];
 }
 
 -(UIView *)tableViewHeaderView{
     if(!_tableViewHeaderView){
         _tableViewHeaderView = [[UIView alloc] init];
         _tableViewHeaderView.backgroundColor = [UIColor clearColor];
-        _tableViewHeaderView.jk_height = height(272);
+        _tableViewHeaderView.jk_height = 272*SCREEN_WIDTH/375;
         
         UIImageView *topBackgroundImageView = [[UIImageView alloc] init];
         topBackgroundImageView.image = [UIImage imageNamed:@"home_topBg"];
         [_tableViewHeaderView addSubview:topBackgroundImageView];
         [topBackgroundImageView mas_makeConstraints:^(MASConstraintMaker *make) {
             make.left.top.right.mas_offset(0);
-            make.height.mas_equalTo(height(272));
+            make.height.mas_equalTo(272*SCREEN_WIDTH/375);
         }];
         
         UILabel *topTitleLabel = [[UILabel alloc] init];
@@ -81,12 +91,19 @@ static NSString *identifier01 = @"LGLoanApplyListCell";
             make.top.mas_offset(k_StatusBarHeight + 12);
         }];
         
-        self.topIntroducePic = [[UIImageView alloc] init];
-        self.topIntroducePic.image = [UIImage imageNamed:@"home_topIntroducePic"];
-        [_tableViewHeaderView addSubview:self.topIntroducePic];
-        [self.topIntroducePic mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.top.mas_equalTo(topTitleLabel.mas_bottom).mas_offset(14);
+        self.cycleScrollView = [SDCycleScrollView cycleScrollViewWithFrame:CGRectMake(15, 94, SCREEN_WIDTH - 30, (SCREEN_WIDTH - 30)*120/345) delegate:self placeholderImage:[UIImage imageNamed:@""]];
+        self.cycleScrollView.localizationImageNamesGroup = @[@"home_topIntroducePic"];
+        self.cycleScrollView.delegate = self;
+        self.cycleScrollView.autoScrollTimeInterval = 5;
+        self.cycleScrollView.pageControlStyle = SDCycleScrollViewPageContolStyleClassic;
+        self.cycleScrollView.currentPageDotImage = [UIImage imageNamed:@""];
+        self.cycleScrollView.pageDotImage = [UIImage imageNamed:@""];
+        self.cycleScrollView.layer.cornerRadius = 16;
+        self.cycleScrollView.layer.masksToBounds = YES;
+        [_tableViewHeaderView addSubview:self.cycleScrollView];
+        [self.cycleScrollView mas_makeConstraints:^(MASConstraintMaker *make) {
             make.left.mas_offset(15);
+            make.top.mas_equalTo(topTitleLabel.mas_bottom).mas_offset(14);
             make.right.mas_offset(-15);
             make.height.mas_equalTo((SCREEN_WIDTH - 30)*120/345);
         }];
@@ -98,7 +115,7 @@ static NSString *identifier01 = @"LGLoanApplyListCell";
             [self.loanIntroduceBgImageView mas_makeConstraints:^(MASConstraintMaker *make) {
                 make.left.mas_offset(15);
                 make.right.mas_offset(-15);
-                make.top.mas_equalTo(self.topIntroducePic.mas_bottom).mas_offset(24);
+                make.top.mas_equalTo(self.cycleScrollView.mas_bottom).mas_offset(24);
                 make.height.mas_equalTo(height(190));
             }];
             
@@ -227,5 +244,9 @@ static NSString *identifier01 = @"LGLoanApplyListCell";
 -(void)applyAction:(UIButton *)sender{
     LGInfoAuthHomePageViewController *authVC = [[LGInfoAuthHomePageViewController alloc] init];
     [self.navigationController pushViewController:authVC animated:YES];
+}
+
+- (void)cycleScrollView:(SDCycleScrollView *)cycleScrollView didSelectItemAtIndex:(NSInteger)index{
+    
 }
 @end

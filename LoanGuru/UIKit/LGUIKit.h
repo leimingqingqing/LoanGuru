@@ -19,5 +19,5 @@
 #define k_SafeAreaBottomHeight (SCREEN_HEIGHT >= 812.0 ? 34 : 0)
 
 #define mainColor [UIColor jk_colorWithHexString:@"0C7472"]
-#define mainLightColor [UIColor jk_colorWithHexString:@"F0F6F6"]
+#define mainLightColor [UIColor jk_colorWithHexString:@"E6F1F1"]
 #endif /* LGUIKit_h */

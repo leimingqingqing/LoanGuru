@@ -8,7 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		10BB1BBB5283D0826F0B7B01 /* libPods-LoanGuru.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B29381A3BC2AE57DC2AB8A0 /* libPods-LoanGuru.a */; };
+		18075A9629AF2B1F0044066A /* LGWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18075A9529AF2B1F0044066A /* LGWebViewController.m */; };
+		18075A9A29AF2D7E0044066A /* LGRouterConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 18075A9929AF2D7E0044066A /* LGRouterConfig.m */; };
+		18075A9D29AF32240044066A /* LGRouteRegister.m in Sources */ = {isa = PBXBuildFile; fileRef = 18075A9B29AF32240044066A /* LGRouteRegister.m */; };
+		18075AA029AF329E0044066A /* LGRoutes.m in Sources */ = {isa = PBXBuildFile; fileRef = 18075A9F29AF329E0044066A /* LGRoutes.m */; };
+		18075AA329AF34200044066A /* LGModuleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18075AA129AF34200044066A /* LGModuleManager.m */; };
+		18075AA629AF37A20044066A /* UIViewController+LGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18075AA529AF37A20044066A /* UIViewController+LGViewController.m */; };
+		18075AA929AF392E0044066A /* WeakScriptMessageHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 18075AA829AF392E0044066A /* WeakScriptMessageHandler.m */; };
+		18075AAF29AF3F360044066A /* NSString+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 18075AAE29AF3F360044066A /* NSString+Common.m */; };
+		18075AB229AF48520044066A /* LGMainRouteRegister.m in Sources */ = {isa = PBXBuildFile; fileRef = 18075AB129AF48520044066A /* LGMainRouteRegister.m */; };
+		18075AB629AF4AEC0044066A /* UIApplication+hook.m in Sources */ = {isa = PBXBuildFile; fileRef = 18075AB429AF4AEB0044066A /* UIApplication+hook.m */; };
+		18075AB929B02F460044066A /* LGBasicInfomationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18075AB829B02F460044066A /* LGBasicInfomationViewController.m */; };
+		18075ABC29B02F760044066A /* LGContactInfomationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18075ABB29B02F760044066A /* LGContactInfomationViewController.m */; };
+		18075ABF29B04ABE0044066A /* LGBasicInfoStyle01View.m in Sources */ = {isa = PBXBuildFile; fileRef = 18075ABE29B04ABE0044066A /* LGBasicInfoStyle01View.m */; };
+		18075AC229B04ADE0044066A /* LGBasicInfoStyle02View.m in Sources */ = {isa = PBXBuildFile; fileRef = 18075AC129B04ADE0044066A /* LGBasicInfoStyle02View.m */; };
+		18075AC629B074820044066A /* LGEnumAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18075AC529B074820044066A /* LGEnumAlertView.m */; };
+		18075AC929B093950044066A /* UIButton+Main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18075AC729B093940044066A /* UIButton+Main.m */; };
+		18075ACE29B0961D0044066A /* LGLoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18075ACD29B0961D0044066A /* LGLoginViewModel.m */; };
+		18075ADA29B1A33D0044066A /* LGAccountCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18075AD929B1A33D0044066A /* LGAccountCell.m */; };
+		18075AE129B1E5830044066A /* LGRepayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18075ADF29B1E5830044066A /* LGRepayCell.m */; };
+		18075AE229B1E5830044066A /* LGRepayCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18075AE029B1E5830044066A /* LGRepayCell.xib */; };
+		18075AE629B1F1810044066A /* LGSetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18075AE429B1F1810044066A /* LGSetViewController.m */; };
+		18075AE729B1F1810044066A /* LGSetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18075AE529B1F1810044066A /* LGSetViewController.xib */; };
 		18390F6229ADEBA7009A289F /* LGLivingRecognitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18390F6129ADEBA7009A289F /* LGLivingRecognitionViewController.m */; };
+		18390F6829AEFA79009A289F /* LGNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 18390F6729AEFA79009A289F /* LGNetwork.m */; };
+		18390F6B29AEFB95009A289F /* LGProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 18390F6A29AEFB95009A289F /* LGProgressHUD.m */; };
+		18390F6E29AF1958009A289F /* LGHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 18390F6D29AF1958009A289F /* LGHelper.m */; };
+		18390F7129AF1C45009A289F /* LGTokenSettingAndGetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 18390F7029AF1C45009A289F /* LGTokenSettingAndGetting.m */; };
+		18390F7429AF1EB3009A289F /* LGNotificationName.m in Sources */ = {isa = PBXBuildFile; fileRef = 18390F7329AF1EB3009A289F /* LGNotificationName.m */; };
 		18A57BD829A88E5700BD7909 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A57BD729A88E5700BD7909 /* AppDelegate.m */; };
 		18A57BE129A88E5700BD7909 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A57BDF29A88E5700BD7909 /* Main.storyboard */; };
 		18A57BE329A88E5900BD7909 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A57BE229A88E5900BD7909 /* Assets.xcassets */; };
@@ -22,6 +49,10 @@
 		18A57C1C29A8AF9F00BD7909 /* UIView+LGExpend.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A57C1B29A8AF9F00BD7909 /* UIView+LGExpend.m */; };
 		18A57C2229A8B71B00BD7909 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18A57C2429A8B71B00BD7909 /* Localizable.strings */; };
 		18A57C2829AB7F0900BD7909 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18A57C2A29AB7F0900BD7909 /* InfoPlist.strings */; };
+		18C1049629B574260084A2D0 /* NSString+YBExpend.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C1049429B574260084A2D0 /* NSString+YBExpend.m */; };
+		18C1049929B596110084A2D0 /* LGCommonAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C1049829B596110084A2D0 /* LGCommonAlertView.m */; };
+		18C1049D29B5B2400084A2D0 /* LGLoginModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C1049C29B5B2400084A2D0 /* LGLoginModel.m */; };
+		18C104A129B5CA5A0084A2D0 /* LGHomeViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C104A029B5CA5A0084A2D0 /* LGHomeViewModel.m */; };
 		18EDE25229AC347F00860731 /* LGTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EDE25129AC347F00860731 /* LGTabbar.m */; };
 		18EDE25529AC358200860731 /* LGTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EDE25429AC358200860731 /* LGTabbarController.m */; };
 		18EDE25B29AC380500860731 /* LGHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EDE25A29AC380500860731 /* LGHomePageViewController.m */; };
@@ -55,9 +86,62 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18075A9429AF2B1F0044066A /* LGWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGWebViewController.h; sourceTree = "<group>"; };
+		18075A9529AF2B1F0044066A /* LGWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGWebViewController.m; sourceTree = "<group>"; };
+		18075A9829AF2D7E0044066A /* LGRouterConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGRouterConfig.h; sourceTree = "<group>"; };
+		18075A9929AF2D7E0044066A /* LGRouterConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGRouterConfig.m; sourceTree = "<group>"; };
+		18075A9B29AF32240044066A /* LGRouteRegister.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGRouteRegister.m; sourceTree = "<group>"; };
+		18075A9C29AF32240044066A /* LGRouteRegister.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGRouteRegister.h; sourceTree = "<group>"; };
+		18075A9E29AF329D0044066A /* LGRoutes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGRoutes.h; sourceTree = "<group>"; };
+		18075A9F29AF329E0044066A /* LGRoutes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGRoutes.m; sourceTree = "<group>"; };
+		18075AA129AF34200044066A /* LGModuleManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGModuleManager.m; sourceTree = "<group>"; };
+		18075AA229AF34200044066A /* LGModuleManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGModuleManager.h; sourceTree = "<group>"; };
+		18075AA429AF37A20044066A /* UIViewController+LGViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LGViewController.h"; sourceTree = "<group>"; };
+		18075AA529AF37A20044066A /* UIViewController+LGViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LGViewController.m"; sourceTree = "<group>"; };
+		18075AA729AF392E0044066A /* WeakScriptMessageHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeakScriptMessageHandler.h; sourceTree = "<group>"; };
+		18075AA829AF392E0044066A /* WeakScriptMessageHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeakScriptMessageHandler.m; sourceTree = "<group>"; };
+		18075AAD29AF3F360044066A /* NSString+Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Common.h"; sourceTree = "<group>"; };
+		18075AAE29AF3F360044066A /* NSString+Common.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Common.m"; sourceTree = "<group>"; };
+		18075AB029AF48520044066A /* LGMainRouteRegister.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGMainRouteRegister.h; sourceTree = "<group>"; };
+		18075AB129AF48520044066A /* LGMainRouteRegister.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGMainRouteRegister.m; sourceTree = "<group>"; };
+		18075AB329AF4A030044066A /* LGRoute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGRoute.h; sourceTree = "<group>"; };
+		18075AB429AF4AEB0044066A /* UIApplication+hook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+hook.m"; sourceTree = "<group>"; };
+		18075AB529AF4AEC0044066A /* UIApplication+hook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+hook.h"; sourceTree = "<group>"; };
+		18075AB729B02F460044066A /* LGBasicInfomationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGBasicInfomationViewController.h; sourceTree = "<group>"; };
+		18075AB829B02F460044066A /* LGBasicInfomationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGBasicInfomationViewController.m; sourceTree = "<group>"; };
+		18075ABA29B02F760044066A /* LGContactInfomationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGContactInfomationViewController.h; sourceTree = "<group>"; };
+		18075ABB29B02F760044066A /* LGContactInfomationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGContactInfomationViewController.m; sourceTree = "<group>"; };
+		18075ABD29B04ABE0044066A /* LGBasicInfoStyle01View.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGBasicInfoStyle01View.h; sourceTree = "<group>"; };
+		18075ABE29B04ABE0044066A /* LGBasicInfoStyle01View.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGBasicInfoStyle01View.m; sourceTree = "<group>"; };
+		18075AC029B04ADE0044066A /* LGBasicInfoStyle02View.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGBasicInfoStyle02View.h; sourceTree = "<group>"; };
+		18075AC129B04ADE0044066A /* LGBasicInfoStyle02View.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGBasicInfoStyle02View.m; sourceTree = "<group>"; };
+		18075AC429B074820044066A /* LGEnumAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGEnumAlertView.h; sourceTree = "<group>"; };
+		18075AC529B074820044066A /* LGEnumAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGEnumAlertView.m; sourceTree = "<group>"; };
+		18075AC729B093940044066A /* UIButton+Main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Main.m"; sourceTree = "<group>"; };
+		18075AC829B093940044066A /* UIButton+Main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Main.h"; sourceTree = "<group>"; };
+		18075ACC29B0961D0044066A /* LGLoginViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGLoginViewModel.h; sourceTree = "<group>"; };
+		18075ACD29B0961D0044066A /* LGLoginViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGLoginViewModel.m; sourceTree = "<group>"; };
+		18075AD829B1A33D0044066A /* LGAccountCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGAccountCell.h; sourceTree = "<group>"; };
+		18075AD929B1A33D0044066A /* LGAccountCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGAccountCell.m; sourceTree = "<group>"; };
+		18075ADE29B1E5830044066A /* LGRepayCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGRepayCell.h; sourceTree = "<group>"; };
+		18075ADF29B1E5830044066A /* LGRepayCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGRepayCell.m; sourceTree = "<group>"; };
+		18075AE029B1E5830044066A /* LGRepayCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LGRepayCell.xib; sourceTree = "<group>"; };
+		18075AE329B1F1810044066A /* LGSetViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGSetViewController.h; sourceTree = "<group>"; };
+		18075AE429B1F1810044066A /* LGSetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGSetViewController.m; sourceTree = "<group>"; };
+		18075AE529B1F1810044066A /* LGSetViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LGSetViewController.xib; sourceTree = "<group>"; };
 		18390F6029ADEBA7009A289F /* LGLivingRecognitionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGLivingRecognitionViewController.h; sourceTree = "<group>"; };
 		18390F6129ADEBA7009A289F /* LGLivingRecognitionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGLivingRecognitionViewController.m; sourceTree = "<group>"; };
 		18390F6429AED658009A289F /* LoanGuru.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LoanGuru.entitlements; sourceTree = "<group>"; };
+		18390F6629AEFA79009A289F /* LGNetwork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGNetwork.h; sourceTree = "<group>"; };
+		18390F6729AEFA79009A289F /* LGNetwork.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGNetwork.m; sourceTree = "<group>"; };
+		18390F6929AEFB95009A289F /* LGProgressHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGProgressHUD.h; sourceTree = "<group>"; };
+		18390F6A29AEFB95009A289F /* LGProgressHUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGProgressHUD.m; sourceTree = "<group>"; };
+		18390F6C29AF1958009A289F /* LGHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGHelper.h; sourceTree = "<group>"; };
+		18390F6D29AF1958009A289F /* LGHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGHelper.m; sourceTree = "<group>"; };
+		18390F6F29AF1C45009A289F /* LGTokenSettingAndGetting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGTokenSettingAndGetting.h; sourceTree = "<group>"; };
+		18390F7029AF1C45009A289F /* LGTokenSettingAndGetting.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGTokenSettingAndGetting.m; sourceTree = "<group>"; };
+		18390F7229AF1EB3009A289F /* LGNotificationName.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGNotificationName.h; sourceTree = "<group>"; };
+		18390F7329AF1EB3009A289F /* LGNotificationName.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGNotificationName.m; sourceTree = "<group>"; };
 		18A57BD329A88E5700BD7909 /* LoanGuru.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoanGuru.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A57BD629A88E5700BD7909 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18A57BD729A88E5700BD7909 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -85,6 +169,14 @@
 		18A57C2529A8B71F00BD7909 /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/Localizable.strings; sourceTree = "<group>"; };
 		18A57C2929AB7F0900BD7909 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		18A57C2B29AB7F1100BD7909 /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18C1049429B574260084A2D0 /* NSString+YBExpend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+YBExpend.m"; sourceTree = "<group>"; };
+		18C1049529B574260084A2D0 /* NSString+YBExpend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+YBExpend.h"; sourceTree = "<group>"; };
+		18C1049729B596110084A2D0 /* LGCommonAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGCommonAlertView.h; sourceTree = "<group>"; };
+		18C1049829B596110084A2D0 /* LGCommonAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGCommonAlertView.m; sourceTree = "<group>"; };
+		18C1049B29B5B2400084A2D0 /* LGLoginModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGLoginModel.h; sourceTree = "<group>"; };
+		18C1049C29B5B2400084A2D0 /* LGLoginModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGLoginModel.m; sourceTree = "<group>"; };
+		18C1049F29B5CA5A0084A2D0 /* LGHomeViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGHomeViewModel.h; sourceTree = "<group>"; };
+		18C104A029B5CA5A0084A2D0 /* LGHomeViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGHomeViewModel.m; sourceTree = "<group>"; };
 		18EDE25029AC347F00860731 /* LGTabbar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGTabbar.h; sourceTree = "<group>"; };
 		18EDE25129AC347F00860731 /* LGTabbar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGTabbar.m; sourceTree = "<group>"; };
 		18EDE25329AC358200860731 /* LGTabbarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGTabbarController.h; sourceTree = "<group>"; };
@@ -141,6 +233,131 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18075A9329AF2B0F0044066A /* LGWebView */ = {
+			isa = PBXGroup;
+			children = (
+				18075AA729AF392E0044066A /* WeakScriptMessageHandler.h */,
+				18075AA829AF392E0044066A /* WeakScriptMessageHandler.m */,
+				18075A9429AF2B1F0044066A /* LGWebViewController.h */,
+				18075A9529AF2B1F0044066A /* LGWebViewController.m */,
+			);
+			path = LGWebView;
+			sourceTree = "<group>";
+		};
+		18075A9729AF2C120044066A /* LGRouter */ = {
+			isa = PBXGroup;
+			children = (
+				18075AB529AF4AEC0044066A /* UIApplication+hook.h */,
+				18075AB429AF4AEB0044066A /* UIApplication+hook.m */,
+				18075AA229AF34200044066A /* LGModuleManager.h */,
+				18075AA129AF34200044066A /* LGModuleManager.m */,
+				18075A9E29AF329D0044066A /* LGRoutes.h */,
+				18075A9F29AF329E0044066A /* LGRoutes.m */,
+				18075A9829AF2D7E0044066A /* LGRouterConfig.h */,
+				18075A9929AF2D7E0044066A /* LGRouterConfig.m */,
+				18075A9C29AF32240044066A /* LGRouteRegister.h */,
+				18075A9B29AF32240044066A /* LGRouteRegister.m */,
+				18075AB029AF48520044066A /* LGMainRouteRegister.h */,
+				18075AB129AF48520044066A /* LGMainRouteRegister.m */,
+				18075AB329AF4A030044066A /* LGRoute.h */,
+			);
+			path = LGRouter;
+			sourceTree = "<group>";
+		};
+		18075AC329B072870044066A /* AlertView */ = {
+			isa = PBXGroup;
+			children = (
+				18075AC429B074820044066A /* LGEnumAlertView.h */,
+				18075AC529B074820044066A /* LGEnumAlertView.m */,
+				18C1049729B596110084A2D0 /* LGCommonAlertView.h */,
+				18C1049829B596110084A2D0 /* LGCommonAlertView.m */,
+			);
+			path = AlertView;
+			sourceTree = "<group>";
+		};
+		18075ACA29B095D60044066A /* LoginViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				18075ACC29B0961D0044066A /* LGLoginViewModel.h */,
+				18075ACD29B0961D0044066A /* LGLoginViewModel.m */,
+			);
+			path = LoginViewModel;
+			sourceTree = "<group>";
+		};
+		18075ACB29B095D60044066A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18C1049B29B5B2400084A2D0 /* LGLoginModel.h */,
+				18C1049C29B5B2400084A2D0 /* LGLoginModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18075AD029B1A2D00044066A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18075AD829B1A33D0044066A /* LGAccountCell.h */,
+				18075AD929B1A33D0044066A /* LGAccountCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18075AD129B1A2D00044066A /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				18EDE25C29AC381300860731 /* LGAccountViewController.h */,
+				18EDE25D29AC381300860731 /* LGAccountViewController.m */,
+				18075AE329B1F1810044066A /* LGSetViewController.h */,
+				18075AE429B1F1810044066A /* LGSetViewController.m */,
+				18075AE529B1F1810044066A /* LGSetViewController.xib */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		18075AD229B1A2D00044066A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18075ADB29B1E5510044066A /* VC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		18075ADC29B1E5510044066A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18075ADE29B1E5830044066A /* LGRepayCell.h */,
+				18075ADF29B1E5830044066A /* LGRepayCell.m */,
+				18075AE029B1E5830044066A /* LGRepayCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18075ADD29B1E5510044066A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18EDE25F29AC382500860731 /* LGRepayViewController.h */,
+				18EDE26029AC382500860731 /* LGRepayViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		18390F6529AEF86D009A289F /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				18390F6629AEFA79009A289F /* LGNetwork.h */,
+				18390F6729AEFA79009A289F /* LGNetwork.m */,
+				18390F6F29AF1C45009A289F /* LGTokenSettingAndGetting.h */,
+				18390F7029AF1C45009A289F /* LGTokenSettingAndGetting.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 		18A57BCA29A88E5700BD7909 = {
 			isa = PBXGroup;
 			children = (
@@ -169,6 +386,10 @@
 				18390F6429AED658009A289F /* LoanGuru.entitlements */,
 				18A57BD629A88E5700BD7909 /* AppDelegate.h */,
 				18A57BD729A88E5700BD7909 /* AppDelegate.m */,
+				18075AC329B072870044066A /* AlertView */,
+				18075A9729AF2C120044066A /* LGRouter */,
+				18075A9329AF2B0F0044066A /* LGWebView */,
+				18390F6529AEF86D009A289F /* Network */,
 				18EDE25829AC37DF00860731 /* Account */,
 				18EDE25729AC37DF00860731 /* HomePage */,
 				18EDE25629AC37DF00860731 /* Repay */,
@@ -209,8 +430,9 @@
 		18A57C0B29A8967300BD7909 /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				18A57C1129A89CDF00BD7909 /* LGLoginViewController.h */,
-				18A57C1229A89CDF00BD7909 /* LGLoginViewController.m */,
+				18C1049A29B5B22C0084A2D0 /* VC */,
+				18075ACA29B095D60044066A /* LoginViewModel */,
+				18075ACB29B095D60044066A /* Model */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -228,6 +450,10 @@
 			isa = PBXGroup;
 			children = (
 				18A57C1829A89F1300BD7909 /* LGUIKit.h */,
+				18390F6C29AF1958009A289F /* LGHelper.h */,
+				18390F6D29AF1958009A289F /* LGHelper.m */,
+				18390F7229AF1EB3009A289F /* LGNotificationName.h */,
+				18390F7329AF1EB3009A289F /* LGNotificationName.m */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -235,8 +461,18 @@
 		18A57C1929A8AF8C00BD7909 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				18075AA429AF37A20044066A /* UIViewController+LGViewController.h */,
+				18075AA529AF37A20044066A /* UIViewController+LGViewController.m */,
 				18A57C1A29A8AF9F00BD7909 /* UIView+LGExpend.h */,
 				18A57C1B29A8AF9F00BD7909 /* UIView+LGExpend.m */,
+				18390F6929AEFB95009A289F /* LGProgressHUD.h */,
+				18390F6A29AEFB95009A289F /* LGProgressHUD.m */,
+				18075AAD29AF3F360044066A /* NSString+Common.h */,
+				18075AAE29AF3F360044066A /* NSString+Common.m */,
+				18075AC829B093940044066A /* UIButton+Main.h */,
+				18075AC729B093940044066A /* UIButton+Main.m */,
+				18C1049529B574260084A2D0 /* NSString+YBExpend.h */,
+				18C1049429B574260084A2D0 /* NSString+YBExpend.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -247,6 +483,24 @@
 				18A57C2429A8B71B00BD7909 /* Localizable.strings */,
 			);
 			path = Localizable;
+			sourceTree = "<group>";
+		};
+		18C1049A29B5B22C0084A2D0 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				18A57C1129A89CDF00BD7909 /* LGLoginViewController.h */,
+				18A57C1229A89CDF00BD7909 /* LGLoginViewController.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		18C1049E29B5C9E40084A2D0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				18C1049F29B5CA5A0084A2D0 /* LGHomeViewModel.h */,
+				18C104A029B5CA5A0084A2D0 /* LGHomeViewModel.m */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		18EDE24F29AC345B00860731 /* Tabbar */ = {
@@ -263,8 +517,9 @@
 		18EDE25629AC37DF00860731 /* Repay */ = {
 			isa = PBXGroup;
 			children = (
-				18EDE25F29AC382500860731 /* LGRepayViewController.h */,
-				18EDE26029AC382500860731 /* LGRepayViewController.m */,
+				18075ADD29B1E5510044066A /* Controller */,
+				18075ADB29B1E5510044066A /* VC */,
+				18075ADC29B1E5510044066A /* View */,
 			);
 			path = Repay;
 			sourceTree = "<group>";
@@ -272,6 +527,7 @@
 		18EDE25729AC37DF00860731 /* HomePage */ = {
 			isa = PBXGroup;
 			children = (
+				18C1049E29B5C9E40084A2D0 /* ViewModel */,
 				18EDE26329AC848300860731 /* Model */,
 				18EDE26429AC848300860731 /* VC */,
 				18EDE26229AC848300860731 /* View */,
@@ -282,8 +538,9 @@
 		18EDE25829AC37DF00860731 /* Account */ = {
 			isa = PBXGroup;
 			children = (
-				18EDE25C29AC381300860731 /* LGAccountViewController.h */,
-				18EDE25D29AC381300860731 /* LGAccountViewController.m */,
+				18075AD229B1A2D00044066A /* Model */,
+				18075AD129B1A2D00044066A /* VC */,
+				18075AD029B1A2D00044066A /* View */,
 			);
 			path = Account;
 			sourceTree = "<group>";
@@ -302,6 +559,10 @@
 				18EDE27729AD8B4300860731 /* LGAuthAlertView.m */,
 				18EDE27929ADAA9100860731 /* LGConfirmCardInfoAlertView.h */,
 				18EDE27A29ADAA9100860731 /* LGConfirmCardInfoAlertView.m */,
+				18075ABD29B04ABE0044066A /* LGBasicInfoStyle01View.h */,
+				18075ABE29B04ABE0044066A /* LGBasicInfoStyle01View.m */,
+				18075AC029B04ADE0044066A /* LGBasicInfoStyle02View.h */,
+				18075AC129B04ADE0044066A /* LGBasicInfoStyle02View.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -324,6 +585,10 @@
 				18EDE27429ACBDDF00860731 /* LGBasicInfoCardViewController.m */,
 				18390F6029ADEBA7009A289F /* LGLivingRecognitionViewController.h */,
 				18390F6129ADEBA7009A289F /* LGLivingRecognitionViewController.m */,
+				18075AB729B02F460044066A /* LGBasicInfomationViewController.h */,
+				18075AB829B02F460044066A /* LGBasicInfomationViewController.m */,
+				18075ABA29B02F760044066A /* LGContactInfomationViewController.h */,
+				18075ABB29B02F760044066A /* LGContactInfomationViewController.m */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -451,11 +716,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18075AE229B1E5830044066A /* LGRepayCell.xib in Resources */,
 				18A57BE629A88E5900BD7909 /* LaunchScreen.storyboard in Resources */,
 				18A57C2229A8B71B00BD7909 /* Localizable.strings in Resources */,
 				18EDE26929AC84B500860731 /* LGLoanProcessCell.xib in Resources */,
 				18A57BE329A88E5900BD7909 /* Assets.xcassets in Resources */,
 				18A57BE129A88E5700BD7909 /* Main.storyboard in Resources */,
+				18075AE729B1F1810044066A /* LGSetViewController.xib in Resources */,
 				18A57C2829AB7F0900BD7909 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -523,24 +790,53 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18075AB629AF4AEC0044066A /* UIApplication+hook.m in Sources */,
+				18075AA029AF329E0044066A /* LGRoutes.m in Sources */,
 				18A57C1329A89CDF00BD7909 /* LGLoginViewController.m in Sources */,
+				18075AA629AF37A20044066A /* UIViewController+LGViewController.m in Sources */,
+				18075AC929B093950044066A /* UIButton+Main.m in Sources */,
+				18075A9D29AF32240044066A /* LGRouteRegister.m in Sources */,
+				18390F6E29AF1958009A289F /* LGHelper.m in Sources */,
+				18075ADA29B1A33D0044066A /* LGAccountCell.m in Sources */,
 				18A57C1C29A8AF9F00BD7909 /* UIView+LGExpend.m in Sources */,
 				18A57BD829A88E5700BD7909 /* AppDelegate.m in Sources */,
+				18075AB929B02F460044066A /* LGBasicInfomationViewController.m in Sources */,
 				18EDE26C29AC933800860731 /* LGLoanApplyListCell.m in Sources */,
 				18EDE27829AD8B4300860731 /* LGAuthAlertView.m in Sources */,
 				18A57C0F29A899CF00BD7909 /* LGNavigationController.m in Sources */,
+				18075AAF29AF3F360044066A /* NSString+Common.m in Sources */,
+				18390F7429AF1EB3009A289F /* LGNotificationName.m in Sources */,
+				18390F6829AEFA79009A289F /* LGNetwork.m in Sources */,
+				18C104A129B5CA5A0084A2D0 /* LGHomeViewModel.m in Sources */,
 				18EDE26F29AC9EB300860731 /* LGInfoAuthHomePageViewController.m in Sources */,
+				18075AE629B1F1810044066A /* LGSetViewController.m in Sources */,
 				18EDE27229ACABB900860731 /* LGInfoAuthTypeCell.m in Sources */,
 				18EDE27529ACBDDF00860731 /* LGBasicInfoCardViewController.m in Sources */,
+				18075AA929AF392E0044066A /* WeakScriptMessageHandler.m in Sources */,
 				18EDE26829AC84B500860731 /* LGLoanProcessCell.m in Sources */,
+				18390F7129AF1C45009A289F /* LGTokenSettingAndGetting.m in Sources */,
+				18C1049629B574260084A2D0 /* NSString+YBExpend.m in Sources */,
+				18075ABF29B04ABE0044066A /* LGBasicInfoStyle01View.m in Sources */,
+				18075AA329AF34200044066A /* LGModuleManager.m in Sources */,
 				18EDE25529AC358200860731 /* LGTabbarController.m in Sources */,
+				18075AE129B1E5830044066A /* LGRepayCell.m in Sources */,
+				18C1049929B596110084A2D0 /* LGCommonAlertView.m in Sources */,
 				18EDE26129AC382500860731 /* LGRepayViewController.m in Sources */,
+				18075A9629AF2B1F0044066A /* LGWebViewController.m in Sources */,
 				18EDE25E29AC381300860731 /* LGAccountViewController.m in Sources */,
+				18075AC629B074820044066A /* LGEnumAlertView.m in Sources */,
+				18075ACE29B0961D0044066A /* LGLoginViewModel.m in Sources */,
 				18EDE25B29AC380500860731 /* LGHomePageViewController.m in Sources */,
 				18390F6229ADEBA7009A289F /* LGLivingRecognitionViewController.m in Sources */,
 				18EDE27B29ADAA9100860731 /* LGConfirmCardInfoAlertView.m in Sources */,
+				18075A9A29AF2D7E0044066A /* LGRouterConfig.m in Sources */,
+				18075AB229AF48520044066A /* LGMainRouteRegister.m in Sources */,
+				18075AC229B04ADE0044066A /* LGBasicInfoStyle02View.m in Sources */,
 				18EDE25229AC347F00860731 /* LGTabbar.m in Sources */,
+				18C1049D29B5B2400084A2D0 /* LGLoginModel.m in Sources */,
 				18A57BE929A88E5900BD7909 /* main.m in Sources */,
+				18075ABC29B02F760044066A /* LGContactInfomationViewController.m in Sources */,
+				18390F6B29AEFB95009A289F /* LGProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

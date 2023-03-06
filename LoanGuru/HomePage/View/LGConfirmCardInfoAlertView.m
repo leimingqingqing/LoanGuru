@@ -211,8 +211,4 @@
         make.right.mas_offset(-15);
     }];
 }
-
--(void)dealloc{
-    
-}
 @end
